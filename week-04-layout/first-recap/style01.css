@@ -25,5 +25,30 @@ a:hover {
 .button, 
 button {
     display: incline-block; 
-    padding: 8px 12px; background: #0645ad; color: #fff; border: 0; border-radius: 4px;
+    padding: 8px 12px; 
+    background: #0645ad; 
+    color: #fff; 
+    border: 0; 
+    border-radius: 4px;
+}
+
+.image-box {
+border: 1px solid #ccc;
+padding: 6px;
+margin: 6px 6px 0 0;
+text-align: center;
+}
+
+.caption {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 4px 0 0;
+}
+
+/* Class and ID Demos */
+.highlight {
+    background: yellow;
+}
+#summary {
+    font-style: italic;
 }
