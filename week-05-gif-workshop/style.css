@@ -30,3 +30,54 @@ body {margin: 16px;
 }
 
 /*CSS for page 2*/
+
+#content {
+    width: 50%;
+    max-width: 800px;
+    min-width: 250px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: navy;
+}
+
+h1 {
+    font-size: 4rem;
+    border-bottom: 4px solid navy;
+    margin: 25px 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.photo-container {
+    float: right;
+    width: 50%;
+    min-width: 230px;
+    margin: 0 0 15px 25px;
+    background: navy;
+    color: gainsboro;
+}
+
+.photo {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    font-size: 16px;
+    padding: 0 10px;
+    font-style: italic;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    background: navy;
+    color: gainsboro;
+}
+
+/*CSS for page 3*/
