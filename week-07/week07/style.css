@@ -9,3 +9,24 @@ article {
   width: 500px; /* fixed width for main text block */
 }
 
+nav {
+  width: 100%;
+  border-bottom: 1px solid blue; 
+  height: 50px;
+  display: block;
+}
+
+/*Individul navigation items */
+.nav-item {
+  float: left;
+  margin-right: 15px;
+  padding: 100px;
+}
+
+.nav-item.hover {
+  background: #efefef
+}
+
+li {
+  list-style: none;
+}
